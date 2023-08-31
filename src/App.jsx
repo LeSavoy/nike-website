@@ -2,11 +2,11 @@ import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer,
 import Nav from './components/Nav';
 
 const App = () => (
-  <main className="relative">
-    <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
-      <Hero />
-    </section>
+  <main className='relative'>
+      <Nav />
+      <section className='xl:padding-l wide:padding-r padding-b'>
+        <Hero />
+      </section>
     <section className="padding">
       <PopularProducts />
     </section>
